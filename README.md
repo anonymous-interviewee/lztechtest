@@ -10,7 +10,7 @@ What I didn't do due to the aforementioned constraints :
 Running this is pretty clear, clone the repository and then:
 1. `mvn clean install`
 2. `java -jar target/runnable-artifact.jar`
-3. Navigate to `localhost:8080` chose file and submit.
+3. Navigate to `localhost:8080` choose file and submit.
 
 This appears to run the application in an embedded tomcat server. For a Web Application Resource it should be sufficient to change the packaging to WAR in the pom file.
 
