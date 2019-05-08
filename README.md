@@ -1,4 +1,4 @@
-#Description
+# Description
 This is a basic implementation of what was requested. It represents approx 2h:05min of learning spring/programming effort as opposed to the proposed 4h for people with no springboot experience. This is a result of my limited personal time :).
 
 What I didn't do due to the aforementioned constraints :
@@ -6,7 +6,7 @@ What I didn't do due to the aforementioned constraints :
 2. Validation of any sort.
 3. Write tests for the bean in the *.models package.
 
-#Instructions
+# Instructions
 Running this is pretty clear, clone the repository and then:
 1. `mvn clean install`
 2. `java -jar target/runnable-artifact.jar`
