@@ -4,12 +4,13 @@ This is a basic implementation of what was requested. It represents approx 2h:05
 What I didn't do due to the aforementioned constraints :
 1. "The end user should be able to enter the card data manually, one row at a time". I with posting the csv.
 2. Validation of any sort.
-3. Write tests for the bean in the *.models package.
+3. Write tests for the bean in the *.models package. I only wrote one for the controller.
 
 #Instructions
 Running this is pretty clear, clone the repository and then:
 1. `mvn clean install`
 2. `java -jar target/runnable-artifact.jar`
+3. Navigate to `localhost:8080` chose file and submit.
 
 This appears to run the application in an embedded tomcat server. For a Web Application Resource it should be sufficient to change the packaging to WAR in the pom file.
 
